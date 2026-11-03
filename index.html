@@ -1,0 +1,431 @@
+<!--
+   ___  _____    ___
+  /   ||  _  |  /   | _
+ / /| || |/' | / /| |(_)
+/ /_| ||  /| |/ /_| |
+\_CONEXIÓN INESTABLE| _
+    |_/ \___/     |_/(_)
+
+    https://www.GHbuspsv.de/
+ -->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GHBus PeruServer | Euro Truck Simulator 2 Perú</title>
+    <meta name="description"
+        content="GHBus PeruServer: comunidad peruana de Euro Truck Simulator 2 con rutas interprovinciales, ranking de conductores, mapa de rutas activas y postulación al equipo.">
+    <meta name="keywords"
+        content="GHbus, GH bus peru, GHbus peru, peruserver, peru server, euro truck 2 peru, euro truck simulator 2 peru, ets2 peru, rutas peru ets2, servidor peruano ets2">
+    <meta name="author" content="NILVER T.I">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow">
+    <meta name="theme-color" content="#1a56db">
+    <meta name="application-name" content="GHBus PeruServer">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="geo.region" content="PE">
+    <meta name="geo.placename" content="Lima">
+    <link rel="shortcut icon" href="https://ghbus.com.pe/favicon.svg" type="image/webp">
+    <link rel="icon" href="https://ghbus.com.pe/favicon.svg" type="image/webp">
+    <link rel="apple-touch-icon" href="https://ghbus.com.pe/favicon.svg">
+    <link rel="alternate" hreflang="es-PE" href="https://www.GHbuspsv.de/">
+    <meta property="og:locale" content="es_PE">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="GHBus PeruServer">
+    <meta property="og:url" content="https://www.GHbuspsv.de/">
+    <meta property="og:title" content="GHBus PeruServer | Euro Truck Simulator 2 Perú">
+    <meta property="og:description"
+        content="Comunidad peruana de Euro Truck Simulator 2: rutas activas, ranking y equipo de conductores en GHBus PeruServer.">
+    <meta property="og:image" content="https://www.GHbuspsv.de/assets/img/github/Home.jpeg?v=2">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="720">
+    <meta property="og:image:alt" content="Vista principal de GHBus PeruServer">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GHBus PeruServer | Euro Truck Simulator 2 Perú">
+    <meta name="twitter:description"
+        content="Rutas activas, ranking y comunidad peruana de Euro Truck Simulator 2 en GHBus PeruServer.">
+    <meta name="twitter:image" content="https://www.GHbuspsv.de/assets/img/github/Home.jpeg?v=2">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "GHBus PeruServer",
+            "url": "https://www.GHbuspsv.de/",
+            "description": "Comunidad peruana de Euro Truck Simulator 2 con rutas activas, ranking y equipo de conductores.",
+            "inLanguage": "es-PE",
+            "keywords": [
+                "GHbus",
+                "GHbus peru",
+                "peruserver",
+                "euro truck 2 peru",
+                "euro truck simulator 2 peru",
+                "ets2 peru",
+                "rutas peru ets2"
+            ],
+            "publisher": {
+                "@type": "Organization",
+                "name": "GHBus PeruServer",
+                "url": "https://www.GHbuspsv.de/",
+                "sameAs": [
+                    "https://www.tiktok.com/@ghbuspsv"
+                ]
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="css/base/styles.css?v=34">
+</head>
+
+<body data-page="index">
+    <div id="siteHeader"></div>
+
+    
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="hero-content reveal">
+                    <p class="hero-kicker">Euro Truck Simulator 2 - Servidor Peruano</p>
+                    <h1><span class="brand-gh">GH</span><span class="brand-bus">Bus</span></h1>
+                    <p class="hero-subtitle">
+                        Conectando el Perú kilómetro a kilómetro. Vive la experiencia del transporte interprovincial más
+                        realista.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="btn-primary" href="#postula">Postula con nosotros</a>
+                        <a class="btn-secondary" href="#nosotros">Conocer más</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats-strip reveal">
+            <div class="container stats-grid">
+                <article class="stat-card">
+                    <div class="stat-icon stat-icon-km" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m12 14 3-3" />
+                            <path d="M3.34 17a10 10 0 1 1 17.32 0" />
+                        </svg>
+                    </div>
+                    <div class="stat-info">
+                        <h3 id="totalKm">--</h3>
+                        <p>KM Recorridos</p>
+                    </div>
+                </article>
+
+                <article class="stat-card">
+                    <div class="stat-icon stat-icon-drivers" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        </svg>
+                    </div>
+                    <div class="stat-info">
+                        <h3 id="activeDrivers">--</h3>
+                        <p>Total conductores</p>
+                    </div>
+                </article>
+
+                <article class="stat-card">
+                    <div class="stat-icon stat-icon-jobs" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M10 17h4V5H2v12h3" />
+                            <path d="M20 17h2v-3.34a4 4 0 0 0-1.17-2.83L19 9h-5v8h1" />
+                            <circle cx="7.5" cy="17.5" r="2.5" />
+                            <circle cx="17.5" cy="17.5" r="2.5" />
+                        </svg>
+                    </div>
+                    <div class="stat-info">
+                        <h3 id="completedRoutes">--</h3>
+                        <p>Trabajos</p>
+                    </div>
+                </article>
+
+                <article class="stat-card">
+                    <div class="stat-icon stat-icon-active" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                        </svg>
+                    </div>
+                    <div class="stat-info">
+                        <h3 id="activeRoutesCount">--</h3>
+                        <p>Trabajos activos</p>
+                    </div>
+                </article>
+            </div>
+            <p id="dataStatus" class="data-status" data-status="loading">Cargando datos en vivo...</p>
+        </section>
+        <script>
+            (function restoreStatsFromCache() {
+                try {
+                    const statsRaw = window.localStorage.getItem("GHbus:stats-snapshot:v2");
+                    if (statsRaw) {
+                        const statsSnapshot = JSON.parse(statsRaw);
+                        const totalKm = Number(statsSnapshot.totalKm) || 0;
+                        const totalDrivers = Number(statsSnapshot.totalDrivers) || 0;
+                        const completedRoutes = Number(statsSnapshot.completedRoutes) || 0;
+                        const activeJobsCount = Number(statsSnapshot.activeJobsCount) || 0;
+                        const hasUsefulData =
+                            totalKm > 0 ||
+                            totalDrivers > 0 ||
+                            completedRoutes > 0 ||
+                            activeJobsCount > 0;
+                        if (hasUsefulData) {
+                            const format = new Intl.NumberFormat("es-PE");
+                            const writeNumber = (id, value) => {
+                                const element = document.getElementById(id);
+                                if (element) element.textContent = format.format(Math.round(Number(value) || 0));
+                            };
+                            const writeKm = (id, value) => {
+                                const element = document.getElementById(id);
+                                if (element) element.textContent = format.format(Math.max(0, Math.floor(Number(value) || 0)));
+                            };
+
+                            writeKm("totalKm", totalKm);
+                            writeNumber("activeDrivers", totalDrivers);
+                            writeNumber("completedRoutes", completedRoutes);
+                            writeNumber("activeRoutesCount", activeJobsCount);
+
+                            const status = document.getElementById("dataStatus");
+                            if (status) {
+                                status.textContent = "Mostrando ultimo snapshot local...";
+                                status.dataset.status = "stale";
+                            }
+                            return;
+                        }
+                    }
+
+                    const raw = window.localStorage.getItem("GHbus:company-data:v4");
+                    if (!raw) return;
+
+                    const stored = JSON.parse(raw);
+                    const payload = stored && stored.payload;
+                    if (!payload) return;
+
+                    const members = Array.isArray(payload.members) ? payload.members : [];
+                    const jobs = Array.isArray(payload.jobs) ? payload.jobs : [];
+                    const recentJobs = Array.isArray(payload.recentJobs) ? payload.recentJobs : [];
+                    if (members.length === 0 || jobs.length === 0) return;
+
+                    const toNumber = (value) => {
+                        const number = Number(value);
+                        return Number.isFinite(number) ? number : 0;
+                    };
+                    const normalize = (value) => String(value || "")
+                        .normalize("NFD")
+                        .replace(/[\u0300-\u036f]/g, "")
+                        .toLowerCase();
+                    const format = new Intl.NumberFormat("es-PE");
+                    const totalKm = toNumber(payload.companyTotals && payload.companyTotals.totalDistance) || 0;
+                    const totalDrivers = members.filter((member) => !normalize(member.role).includes("owner")).length;
+                    const completedRoutes = toNumber(payload.companyTotals && payload.companyTotals.totalJobs) || 0;
+                    const activeJobsSource = recentJobs.length > 0 ? recentJobs : jobs;
+                    const activeJobsCount = activeJobsSource.filter((job) => {
+                        const status = normalize(job.status);
+                        return status === "in_progress" || status === "in progress" || status === "in-progress";
+                    }).length;
+
+                    const writeNumber = (id, value) => {
+                        const element = document.getElementById(id);
+                        if (element) element.textContent = format.format(Math.round(value || 0));
+                    };
+                    const writeKm = (id, value) => {
+                        const element = document.getElementById(id);
+                        if (element) element.textContent = format.format(Math.max(0, Math.floor(value || 0)));
+                    };
+
+                    writeKm("totalKm", totalKm);
+                    writeNumber("activeDrivers", totalDrivers);
+                    writeNumber("completedRoutes", completedRoutes);
+                    writeNumber("activeRoutesCount", activeJobsCount);
+
+                    const status = document.getElementById("dataStatus");
+                    if (status) {
+                        status.textContent = "Mostrando ultimo cache local...";
+                        status.dataset.status = "stale";
+                    }
+                } catch (error) {
+                    console.warn("No se pudo restaurar el cache inicial:", error);
+                }
+            })();
+        </script>
+
+        <section class="section about-section reveal" id="nosotros">
+            <div class="container">
+                <div class="about-intro">
+                    <p class="chip">Sobre Nosotros</p>
+                    <h2 class="about-title">
+                        La experiencia de conducción
+                        <span class="about-title-highlight">más realista</span>
+                    </h2>
+                    <p class="about-copy">
+                        GH Bus es un servidor de Euro Truck Simulator 2 ambientado en el transporte interprovincial
+                        del Perú. Nuestro objetivo es recrear la experiencia de manejar por las carreteras peruanas con
+                        la mayor fidelidad posible.
+                    </p>
+                </div>
+
+                <div class="about-showcase">
+                    <article id="psvCertificationCard" class="psv-cert-card about-side-card" data-tier="loading">
+                        <div class="psv-plate-frame">
+                            <div class="psv-plate-rays" aria-hidden="true"></div>
+                            <div class="psv-plate-head">
+                                <div class="psv-plate-head-copy">
+                                    <p class="psv-plate-topline">
+                                        TOP <span id="psvCertHeroRank" class="psv-plate-top-rank">--</span>
+                                    </p>
+                                    <p class="psv-plate-cert">CERTIFICADO POR</p>
+                                </div>
+                                <div class="psv-plate-logo-wrap">
+                                    <img class="psv-plate-logo" src="assets/img/icons/PSVLOGO.png" alt="Logo PeruServer">
+                                </div>
+                            </div>
+
+                            <div class="psv-plate-center">
+                                <div class="psv-plate-emblem" aria-hidden="true">
+                                    <span class="psv-plate-emblem-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" focusable="false" aria-hidden="true">
+                                            <circle cx="12" cy="8.5" r="5.25" stroke="currentColor" stroke-width="1.8" />
+                                            <path d="M9.1 13.1 7.2 21l4.8-2.7L16.8 21l-1.9-7.9" stroke="currentColor"
+                                                stroke-width="1.8" stroke-linejoin="round" />
+                                            <path d="m12 5.9.93 1.88 2.07.3-1.5 1.46.36 2.06L12 10.71l-1.86.98.36-2.06-1.5-1.46 2.07-.3L12 5.9Z"
+                                                fill="currentColor" stroke="none" />
+                                        </svg>
+                                    </span>
+                                    <span id="psvCertCenterRank" class="psv-plate-emblem-rank">--</span>
+                                </div>
+                                <p class="psv-plate-brand">PERU<span>SERVER</span></p>
+                            </div>
+
+                            <p id="psvCertTitle" class="psv-cert-title">GH Bus: verificando posicion oficial...</p>
+                            <p id="psvCertSubtitle" class="psv-cert-subtitle">Cargando validacion en ranking de empresas.</p>
+
+                            <div class="psv-cert-pills">
+                                <span class="psv-cert-pill">Mes <strong id="psvCertMonthRank">--</strong></span>
+                                <span class="psv-cert-pill">Anual <strong id="psvCertYearRank">--</strong></span>
+                            </div>
+
+                            <p id="psvCertMeta" class="psv-cert-meta">Fuente: PeruServer + Trucky</p>
+                            <a class="psv-cert-link" href="https://peruserver.de/" target="_blank" rel="noopener noreferrer">
+                                Verificar validez
+                            </a>
+                        </div>
+                    </article>
+
+                    <div class="about-cards">
+                        <article class="about-card">
+                            <span class="about-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none">
+                                    <path d="M4 7h9a3 3 0 1 1 0 6H9a3 3 0 1 0 0 6h11" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" />
+                                    <circle cx="17" cy="7" r="2" fill="currentColor" />
+                                    <circle cx="7" cy="17" r="2" fill="currentColor" />
+                                </svg>
+                            </span>
+                            <h3>Rutas Reales</h3>
+                            <p>Recorre las carreteras más emblemáticas del Perú con mapas basados en la geografía real.
+                            </p>
+                        </article>
+
+                        <article class="about-card">
+                            <span class="about-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none">
+                                    <circle cx="8" cy="9" r="3" stroke="currentColor" stroke-width="2" />
+                                    <path d="M2.5 18a5.5 5.5 0 0 1 11 0" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" />
+                                    <circle cx="17" cy="8" r="2.5" stroke="currentColor" stroke-width="2" />
+                                    <path d="M14 17.5a4.5 4.5 0 0 1 7.5-3.4" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </span>
+                            <h3>Comunidad Activa</h3>
+                            <p>Forma parte de un equipo de conductores apasionados por el transporte peruano.</p>
+                        </article>
+
+                        <article class="about-card">
+                            <span class="about-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none">
+                                    <path d="M12 21s6-5.4 6-10a6 6 0 1 0-12 0c0 4.6 6 10 6 10Z" stroke="currentColor"
+                                        stroke-width="2" />
+                                    <circle cx="12" cy="11" r="2.2" fill="currentColor" />
+                                </svg>
+                            </span>
+                            <h3>Ciudades Peruanas</h3>
+                            <p>Conecta Lima, Arequipa, Cusco, Puno, Trujillo y más destinos.</p>
+                        </article>
+
+                        <article class="about-card">
+                            <span class="about-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none">
+                                    <path d="M8 4h8v3h3v3a5 5 0 0 1-5 5h-4a5 5 0 0 1-5-5V7h3V4Z"
+                                        stroke="currentColor" stroke-width="2" />
+                                    <path d="M9 15v2a3 3 0 0 0 6 0v-2M7 21h10" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </span>
+                            <h3>Ranking Competitivo</h3>
+                            <p>Compite por ser el conductor con más kilómetros recorridos del servidor.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="section-rutas" data-include="html/rutas.html?v=34"></div>
+        <div id="section-trabajadores" data-include="html/trabajadores.html?v=34"></div>
+        <div id="section-ranking" data-include="html/ranking.html?v=34"></div>
+        <div id="section-postula" data-include="html/postula.html?v=34"></div>
+    </main>
+
+    <div id="siteFooter"></div>
+
+    <aside id="routeModal" class="modal" aria-hidden="true">
+        <div class="modal-card">
+            <button id="closeRouteModal" class="close-modal" type="button"
+                aria-label="Cerrar detalle de ruta">x</button>
+            <div id="routeModalBody"></div>
+        </div>
+    </aside>
+
+    <aside id="workerModal" class="modal" aria-hidden="true">
+        <div class="modal-card">
+            <button id="closeModal" class="close-modal" type="button" aria-label="Cerrar detalle">x</button>
+            <div id="modalBody"></div>
+        </div>
+    </aside>
+
+    <div id="toastHost" class="toast-host" aria-live="polite" aria-atomic="true"></div>
+
+    <div id="lbrWidget" class="lbr-widget">
+        <div id="lbrTooltip" class="lbr-tooltip" aria-hidden="true">
+            ¡Tenemos nuestro Libro de Reclamaciones!
+            <button id="lbrTooltipCloseBtn" class="lbr-tooltip-close" aria-label="Cerrar aviso">&times;</button>
+        </div>
+        <a id="lbrToggleBtn" class="lbr-toggle-btn" href="https://docs.google.com/forms/d/e/1FAIpQLScB9mLoWe8LxfCzvfGsrWsUB6dxdCv_Mx3mINLPv1m8NqV3sw/viewform" target="_blank" rel="noopener noreferrer" aria-label="Abrir libro de reclamaciones">
+            <img src="assets/img/lbr.webp" alt="Libro de Reclamaciones">
+        </a>
+    </div>
+
+    <script src="js/core/utils.js?v=34" defer></script>
+    <script src="js/core/api.js?v=34" defer></script>
+    <script src="js/modules/lbr.js?v=34" defer></script>
+    <script src="js/services/truckyService.js?v=34" defer></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
+    <script src="js/modules/rutas.js?v=34" defer></script>
+    <script src="js/modules/trabajadores.js?v=34" defer></script>
+    <script src="js/modules/ranking.js?v=34" defer></script>
+    <script src="js/modules/main.js?v=34" defer></script>
+</body>
+
+</html>

@@ -14,10 +14,7 @@
         { src: "../assets/img/GH4.webp",    alt: "GH Bus Peru Server - Terminal" },
         { src: "../assets/img/GH5.webp",    alt: "GH Bus Peru Server - Carretera Andina" },
         { src: "../assets/img/GH6.webp",    alt: "GH Bus Peru Server - Unidad GH" },
-        { src: "../assets/img/Movil.webp",  alt: "GH Bus Peru Server - Vista Móvil" },
-        { src: "../assets/img/Movil7.webp", alt: "GH Bus Peru Server - Ruta Norte" },
-        { src: "../assets/img/Movil8.webp", alt: "GH Bus Peru Server - Ruta Sur" },
-        { src: "../assets/img/Movil9.webp", alt: "GH Bus Peru Server - Ruta Centro" }
+        { src: "../assets/img/GH7.webp",    alt: "GH Bus Peru Server - Convoy en Ticlio" }
     ];
 
 document.addEventListener("DOMContentLoaded", () => {
